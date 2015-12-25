@@ -62,8 +62,15 @@ width: 350px;
   text-decoration: none;
   float: right;
 }
-.cost-form{
-
+.cost-text{
+  margin-left: 40px;
+  width: 440px;
+}
+.cost-text p{
+  padding-top: 10px;
+}
+.cost-form form{
+  width: 100%;
 }
 .subtitle{
   font-weight: bold;
