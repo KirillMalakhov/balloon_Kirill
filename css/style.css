@@ -30,6 +30,7 @@ div[class*="col"]{float:left;padding:15px;box-sizing:border-box;}
   border: 1px solid #ffffff;
   padding: 10px;
 }
+
 .right{
   float: right;
 }
@@ -46,34 +47,50 @@ div[class*="col"]{float:left;padding:15px;box-sizing:border-box;}
 }
 label{
   display: block;
-  padding-top: 15px;
+  margin-top: 15px;
+
 }
-label select{
+.form-form select{
 width: 350px;
 }
-label input{
+.form-form input{
 width: 350px;
+margin-top: 15px;
+}
+.form-form select{
+  display: block;
+  margin-top: 15px;
 }
 .lets-fly-btn{
-  padding: 10px;
+  padding: 15px 30px 15px 30px;
   background-color: #46b0dc;
   border-radius: 10px;
   color: #ffffff;
   text-decoration: none;
   float: right;
+  margin-top: 10px;
 }
 .cost-text{
   margin-left: 40px;
   width: 440px;
 }
+.cost-text-price{
+  margin-left: 0;
+  float: left;
+}
 .cost-text p{
   padding-top: 10px;
+}
+.cost-form{
+
 }
 .cost-form form{
   width: 100%;
 }
 .subtitle{
   font-weight: bold;
+  font-size: 26px;
+  margin-top: 65px;
 }
 .question-title{
   font-weight: bold;
@@ -286,4 +303,36 @@ position: relative;
   margin-top: 95px;
   margin-left: auto;
   margin-right: auto;
+}
+.cost-text-price{
+  font-weight: bold;
+}
+.cost-num{
+  font-size: 38px;
+  color: #f97e7e;
+}
+.cost-num,
+.cost-text-price{
+  display: inline-block;
+  vertical-align: middle;
+}
+.email{
+  text-decoration: underline;
+}
+.payment-method{
+  width: 470px;
+  margin-left: 40px;
+}
+.question-title{
+font-size: 18px;
+margin-bottom: 15px;
+margin-top: 50px;
+}
+.question-text{
+  padding-left: 30px;
+  margin-bottom: 60px;
+}
+.faq{
+  width: 520px;
+  margin-left: 60px;
 }
