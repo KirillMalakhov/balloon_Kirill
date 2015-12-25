@@ -97,7 +97,9 @@ margin-top: 15px;
 }
 .statistics{
   text-align: center;
-  background-color: #fff000;
+  background-image: url(../img/advantages.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 .statistics-item{
   box-sizing: border-box;
@@ -114,6 +116,10 @@ margin-top: 15px;
   color: #ffffff;
   display: inline-block;
   margin: 15px;
+}
+.statistics div{
+  display: inline-block;
+  color: #ffffff;
 }
 .feedback{
   text-align: center;
