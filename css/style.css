@@ -342,3 +342,73 @@ margin-top: 50px;
   width: 520px;
   margin-left: 60px;
 }
+.timer-title,
+.measure,
+.days,
+.hours,
+.minutes,
+.seconds{
+  float: left;
+  color: #26668e;
+  font-weight: bold;
+  font-size: 32px;
+
+}
+
+.measure:before,
+.days:before,
+.hours:before,
+.minutes:before,
+.seconds:before{
+  content:"\00a0\00a0";
+}
+.count{
+  float: left;
+}
+.measure-days,
+.measure-hours,
+.measure-minutes,
+.measure-seconds{
+  font-size: 22px;
+}
+.process{
+  background-image: url(../img/process-bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}.process .row{
+  min-height: 540px;
+  text-align: center;
+  position: relative;
+}
+.ballon{
+  position: absolute;
+}
+.ballon-1{
+left: 60px;
+top: 340px;
+}
+.ballon-2{
+left: 288px;
+top: 160px;
+}
+.ballon-3{
+left: 50%;
+top: 50px;
+
+}
+.ballon-4{
+right: 288px;
+top: 160px;
+}
+.ballon-5{
+right: 60px;
+top: 340px;
+}
+.ballon-img{
+  background-image: url(../img/ballon.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 65px;
+  width: 50px;
+}
