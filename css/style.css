@@ -368,6 +368,18 @@ position: relative;
 }
 .email{
   text-decoration: underline;
+  position: relative;
+}
+.contacts .email:before{
+  position: absolute;
+  content: '';
+  background-image: url(../img/mailicon.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 15px;
+  width: 20px;
+  left: -25px;
+  top: 2px;
 }
 .payment-method{
   width: 470px;
@@ -459,4 +471,30 @@ top: 340px;
   background-repeat: no-repeat;
   height: 65px;
   width: 50px;
+}
+.contacts-title{
+font-size: 26px;
+color: #616161;
+}
+.contacts-adress{
+font-size: 18px;
+color: #616161;
+}
+.contacts-info{
+  font-size: 22px;
+  font-weight: bold;
+}
+.contacts-adress-time{
+  color: #525252;
+  font-size: 20px;
+}
+.contacts-number{
+  font-size: 26px;
+  font-weight: normal;
+}
+.contacts-item{
+  text-align: left;
+}
+footer ul{
+  padding-left: 0;
 }
