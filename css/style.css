@@ -114,6 +114,8 @@ margin-top: 15px;
   font-weight: bold;
   font-size: 28px;
   color: #ffffff;
+  width: 150px;
+  height: 150px;
 }
 .statistics-item-1{
   padding-left: 40px;
@@ -428,6 +430,7 @@ margin-top: 50px;
 }
 .ballon{
   position: absolute;
+  margin-top: 60px;
 }
 .ballon-1{
 left: 60px;
